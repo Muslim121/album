@@ -14,11 +14,11 @@ export default function Page6() {
         Взгляни на эти фоточки и точно не сможешь сдержать улыбки
       </p>
       <div className=" grid grid-cols-5 mt-10 gap-4">
-        <img src={happy1} className=" w-96 h-96 rounded-3xl  " />
-        <img src={happy2} className=" w-96 h-96 rounded-3xl  " />
-        <img src={happy3} className=" w-96 h-96 rounded-3xl  " />
-        <img src={happy4} className=" w-96 h-96 rounded-3xl  " />
-        <img src={happy5} className=" w-96 h-96 rounded-3xl  " />
+        <img src={happy1} className=" w-96 h-96 rounded-3xl  " alt="" />
+        <img src={happy2} className=" w-96 h-96 rounded-3xl  " alt="" />
+        <img src={happy3} className=" w-96 h-96 rounded-3xl  " alt="" />
+        <img src={happy4} className=" w-96 h-96 rounded-3xl  " alt="" />
+        <img src={happy5} className=" w-96 h-96 rounded-3xl  " alt="" />
       </div>
       <Link
         to="/page7"

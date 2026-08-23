@@ -13,7 +13,7 @@ export default function Page4() {
         >
           Тыкай обезьянка
         </Link>
-        <img src={monkey} className=" w-96 h-96 rounded-3xl  " />
+        <img src={monkey} className=" w-96 h-96 rounded-3xl  " alt="" />
       </div>
     </div>
   );

@@ -16,11 +16,11 @@ export default function Page5() {
         просто чудесна!
       </p>
       <div className=" grid grid-cols-5 mt-10 gap-4">
-        <img src={beauty1} className=" w-96 h-96 rounded-3xl  " />
-        <img src={beauty2} className=" w-96 h-96 rounded-3xl  " />
-        <img src={beauty3} className=" w-96 h-96 rounded-3xl  " />
-        <img src={beauty4} className=" w-96 h-96 rounded-3xl  " />
-        <img src={beauty5} className=" w-96 h-96 rounded-3xl  " />
+        <img src={beauty1} className=" w-96 h-96 rounded-3xl  " alt="" />
+        <img src={beauty2} className=" w-96 h-96 rounded-3xl  " alt="" />
+        <img src={beauty3} className=" w-96 h-96 rounded-3xl  " alt="" />
+        <img src={beauty4} className=" w-96 h-96 rounded-3xl  " alt="" />
+        <img src={beauty5} className=" w-96 h-96 rounded-3xl  " alt="" />
       </div>
       <Link
         to="/page6"

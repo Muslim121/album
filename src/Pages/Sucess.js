@@ -15,7 +15,7 @@ export default function Sucess() {
         >
           Тыкай ума
         </Link>
-        <img src={sucess} className=" w-96 h-96 rounded-3xl  " />
+        <img src={sucess} className=" w-96 h-96 rounded-3xl  " alt="" />
       </div>
     </div>
   );

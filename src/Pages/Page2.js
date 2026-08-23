@@ -20,7 +20,7 @@ export default function Page2() {
         </div>
       </div>
       <div>
-        <img src={first} className=" w-2/3 rounded-3xl mt-10" />
+        <img src={first} className=" w-2/3 rounded-3xl mt-10" alt="" />
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ export default function Page1() {
   return (
     <div className=" grid grid-cols-2 ">
       <div>
-        <img src={hello} className=" w-96 rounded-3xl ml-20 mt-10" />
+        <img src={hello} className=" w-96 rounded-3xl ml-20 mt-10" alt="" />
       </div>
       <div className=" mt-10 font-nunito text-white w-2/3">
         <p className=" text-3xl text-slate-900 font-bold">

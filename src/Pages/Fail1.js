@@ -7,7 +7,7 @@ export default function Fail1() {
       <p className=" mt-12 text-slate-900 text-3xl">
         Не, ну ты ваще глупенькая у меня что ли?
       </p>
-      <img src={fail} className=" w-96 h-96 rounded-3xl mt-10 " />
+      <img src={fail} className=" w-96 h-96 rounded-3xl mt-10 " alt="" />
     </div>
   );
 }
