@@ -8,10 +8,12 @@ import Page4 from "./Pages/Page4";
 import Page5 from "./Pages/Page5";
 import Page6 from "./Pages/Page6";
 import Page7 from "./Pages/Page7";
+import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Page1 />} />
         <Route path="/page2" element={<Page2 />} />
