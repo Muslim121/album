@@ -8,17 +8,37 @@ import { Link } from "react-router-dom";
 export default function Page6() {
   return (
     <div className=" flex flex-col justify-center items-center text-center font-bold font-nunito mt-20 ">
-      <p className=" text-slate-900 text-6xl">Малютка моя!</p>
-      <p className=" text-2xl text-white mt-5 ">
+      <p className=" text-slate-900 text-4xl sm:text-6xl">Малютка моя!</p>
+      <p className=" text-xl sm:text-2xl text-white mt-4 sm:mt-6 ">
         Ты, кстати, еще и самая смешная и веселая девочка! Смешнявка моя.
         Взгляни на эти фоточки и точно не сможешь сдержать улыбки
       </p>
-      <div className=" grid grid-cols-5 mt-10 gap-4">
-        <img src={happy1} className=" w-96 h-96 rounded-3xl  " alt="" />
-        <img src={happy2} className=" w-96 h-96 rounded-3xl  " alt="" />
-        <img src={happy3} className=" w-96 h-96 rounded-3xl  " alt="" />
-        <img src={happy4} className=" w-96 h-96 rounded-3xl  " alt="" />
-        <img src={happy5} className=" w-96 h-96 rounded-3xl  " alt="" />
+      <div className=" sm:grid sm:grid-cols-5 mt-10 sm:gap-4">
+        <img
+          src={happy1}
+          className=" w-72 h-72 sm:w-96 sm:h-96 rounded-3xl  "
+          alt=""
+        />
+        <img
+          src={happy2}
+          className=" w-72 h-72 sm:w-96 sm:h-96 rounded-3xl mt-4 sm:mt-0 "
+          alt=""
+        />
+        <img
+          src={happy3}
+          className=" w-72 h-72 sm:w-96 sm:h-96 rounded-3xl mt-4 sm:mt-0 "
+          alt=""
+        />
+        <img
+          src={happy4}
+          className=" w-72 h-72 sm:w-96 sm:h-96 rounded-3xl mt-4 sm:mt-0 "
+          alt=""
+        />
+        <img
+          src={happy5}
+          className=" w-72 h-72 sm:w-96 sm:h-96 rounded-3xl mt-4 sm:mt-0 "
+          alt=""
+        />
       </div>
       <Link
         to="/page7"

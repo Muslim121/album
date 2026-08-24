@@ -3,19 +3,25 @@ import { Link } from "react-router-dom";
 
 export default function Sucess() {
   return (
-    <div className=" flex flex-col justify-center items-center text-center font-bold font-nunito mt-20 ">
-      <p className=" text-green-700 text-6xl">МОЯ Ж ТЫ УУУУУУМА!</p>
-      <p className=" mt-12 text-slate-900 text-3xl">
+    <div className=" flex flex-col justify-center items-center text-center font-bold font-nunito mt-14 sm:mt-20 ">
+      <p className=" text-green-700 text-4xl sm:text-6xl">
+        МОЯ Ж ТЫ УУУУУУУУУУУУМА!
+      </p>
+      <p className=" text-2xl mt-5 sm:mt-12 text-slate-900 sm:text-3xl">
         Вот просто молодчинка, я в тебе не сомневался! Можешь идти дальше
       </p>
-      <div className=" grid grid-cols-2 mt-10 gap-4">
+      <div className=" flex flex-col justify-center mt-7 sm:grid sm:grid-cols-2 sm:mt-10 sm:gap-4 ">
         <Link
           to="/page4"
-          className=" bg-orange-100 text-purple-500 font-bold text-3xl rounded-3xl p-3 text-center grow h-14"
+          className=" bg-orange-100 text-purple-500 font-bold text-3xl rounded-3xl p-3 text-center grow h-14 "
         >
           Тыкай ума
         </Link>
-        <img src={sucess} className=" w-96 h-96 rounded-3xl  " alt="" />
+        <img
+          src={sucess}
+          className=" w-72 h-72 sm:w-96 sm:h-96 rounded-3xl sm:mt-0 mt-5"
+          alt=""
+        />
       </div>
     </div>
   );

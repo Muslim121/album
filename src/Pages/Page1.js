@@ -3,12 +3,16 @@ import { Link } from "react-router-dom";
 
 export default function Page1() {
   return (
-    <div className=" grid grid-cols-2 ">
+    <div className="flex flex-col items-center justify-center sm:grid sm:grid-cols-2">
       <div>
-        <img src={hello} className=" w-96 rounded-3xl ml-20 mt-10" alt="" />
+        <img
+          src={hello}
+          className=" w-64 rounded-3xl sm:ml-20 mt-10 sm:w-96"
+          alt=""
+        />
       </div>
-      <div className=" mt-10 font-nunito text-white w-2/3">
-        <p className=" text-3xl text-slate-900 font-bold">
+      <div className=" flex flex-col items-center justify-center m-10 font-nunito text-white sm:w-2/3 sm:justify-start sm:items-start sm:mt-10 sm:ml-0">
+        <p className=" text-center text-3xl text-slate-900 font-bold">
           Альбинушка корзинушка!
         </p>
         <p className=" text-xl mt-9">
